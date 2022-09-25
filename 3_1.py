@@ -3,7 +3,7 @@
 #Решение:  1-ый способ - замена.    ##.replace('что менять','на что менять')
 
 user_message = input('Введите предложение 1:').replace(' ','-')
-print(user_message)
+print(user_message,)
 
 #Решение: 2-ой способ.              ##.split('в каком месте разорвать') ##'чем склеить'.join(user_message)
 
